@@ -1,0 +1,8 @@
+platform :ios, '8.0'
+use_frameworks!
+target 'swim' do
+	pod 'Alamofire','~> 4.0'
+	pod "Kingfisher"
+	pod 'AlamofireObjectMapper', '~> 4.0'
+	pod 'MJRefresh' 
+end
