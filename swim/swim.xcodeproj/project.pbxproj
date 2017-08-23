@@ -25,6 +25,13 @@
 		9269127E1F0B6700002CF64D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9269127D1F0B6700002CF64D /* Login.storyboard */; };
 		926912801F0B7ED1002CF64D /* InputUserNameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9269127F1F0B7ED1002CF64D /* InputUserNameController.swift */; };
 		927A62751F1DBA4C009478E4 /* ResponseUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A62741F1DBA4C009478E4 /* ResponseUserModel.swift */; };
+		927D60201F4D611F00E0FA52 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 927D60191F4D611F00E0FA52 /* 120.png */; };
+		927D60211F4D611F00E0FA52 /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = 927D601A1F4D611F00E0FA52 /* 180.png */; };
+		927D60221F4D611F00E0FA52 /* 40.png in Resources */ = {isa = PBXBuildFile; fileRef = 927D601B1F4D611F00E0FA52 /* 40.png */; };
+		927D60231F4D611F00E0FA52 /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 927D601C1F4D611F00E0FA52 /* 58.png */; };
+		927D60241F4D611F00E0FA52 /* 60.png in Resources */ = {isa = PBXBuildFile; fileRef = 927D601D1F4D611F00E0FA52 /* 60.png */; };
+		927D60251F4D611F00E0FA52 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = 927D601E1F4D611F00E0FA52 /* 80.png */; };
+		927D60261F4D611F00E0FA52 /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = 927D601F1F4D611F00E0FA52 /* 87.png */; };
 		92A32B811F174B3C0050F99C /* Manage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A32B801F174B3C0050F99C /* Manage.storyboard */; };
 		92A32B901F175CF10050F99C /* ManageFormsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A32B8F1F175CF10050F99C /* ManageFormsViewController.swift */; };
 		92A32B991F175DC00050F99C /* ManageCoursesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A32B981F175DC00050F99C /* ManageCoursesTableViewController.swift */; };
@@ -86,6 +93,13 @@
 		9269127D1F0B6700002CF64D /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		9269127F1F0B7ED1002CF64D /* InputUserNameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputUserNameController.swift; sourceTree = "<group>"; };
 		927A62741F1DBA4C009478E4 /* ResponseUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseUserModel.swift; sourceTree = "<group>"; };
+		927D60191F4D611F00E0FA52 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		927D601A1F4D611F00E0FA52 /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180.png; sourceTree = "<group>"; };
+		927D601B1F4D611F00E0FA52 /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
+		927D601C1F4D611F00E0FA52 /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
+		927D601D1F4D611F00E0FA52 /* 60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60.png; sourceTree = "<group>"; };
+		927D601E1F4D611F00E0FA52 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
+		927D601F1F4D611F00E0FA52 /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87.png; sourceTree = "<group>"; };
 		928C8C6E1EEFF230005E60EE /* QCUIToobox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCUIToobox.h; sourceTree = "<group>"; };
 		92A32B801F174B3C0050F99C /* Manage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Manage.storyboard; sourceTree = "<group>"; };
 		92A32B8F1F175CF10050F99C /* ManageFormsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageFormsViewController.swift; sourceTree = "<group>"; };
@@ -233,6 +247,7 @@
 		9263DEFF1EEFF07D00C1FCE8 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				927D60181F4D611F00E0FA52 /* icon */,
 				9263DF001EEFF07D00C1FCE8 /* Image */,
 				9263DF011EEFF07D00C1FCE8 /* Sound */,
 			);
@@ -320,6 +335,20 @@
 				926533941EF14FD9000A8192 /* MyCourseTableViewController.swift */,
 			);
 			path = MyCourse;
+			sourceTree = "<group>";
+		};
+		927D60181F4D611F00E0FA52 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				927D60191F4D611F00E0FA52 /* 120.png */,
+				927D601A1F4D611F00E0FA52 /* 180.png */,
+				927D601B1F4D611F00E0FA52 /* 40.png */,
+				927D601C1F4D611F00E0FA52 /* 58.png */,
+				927D601D1F4D611F00E0FA52 /* 60.png */,
+				927D601E1F4D611F00E0FA52 /* 80.png */,
+				927D601F1F4D611F00E0FA52 /* 87.png */,
+			);
+			path = icon;
 			sourceTree = "<group>";
 		};
 		92A32B821F175BB70050F99C /* ManageAccount */ = {
@@ -496,12 +525,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				927D60261F4D611F00E0FA52 /* 87.png in Resources */,
+				927D60231F4D611F00E0FA52 /* 58.png in Resources */,
 				9269127E1F0B6700002CF64D /* Login.storyboard in Resources */,
 				9263DECC1EEFF05200C1FCE8 /* LaunchScreen.storyboard in Resources */,
 				92A32B811F174B3C0050F99C /* Manage.storyboard in Resources */,
+				927D60211F4D611F00E0FA52 /* 180.png in Resources */,
 				9263DEC91EEFF05200C1FCE8 /* Assets.xcassets in Resources */,
+				927D60201F4D611F00E0FA52 /* 120.png in Resources */,
 				9263DEC71EEFF05200C1FCE8 /* Main.storyboard in Resources */,
 				92A32BA71F1769910050F99C /* ManageAccount.storyboard in Resources */,
+				927D60251F4D611F00E0FA52 /* 80.png in Resources */,
+				927D60241F4D611F00E0FA52 /* 60.png in Resources */,
+				927D60221F4D611F00E0FA52 /* 40.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -759,10 +795,12 @@
 					"$(PROJECT_DIR)/swim/libs",
 				);
 				INFOPLIST_FILE = swim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.music.-.swim";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.music.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -777,10 +815,12 @@
 					"$(PROJECT_DIR)/swim/libs",
 				);
 				INFOPLIST_FILE = swim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.music.-.swim";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.music.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

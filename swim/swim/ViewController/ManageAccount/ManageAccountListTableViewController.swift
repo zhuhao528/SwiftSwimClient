@@ -113,7 +113,7 @@ class ManageAccountListTableViewController: UITableViewController,AccountCellDel
         UserInfoRequest(start: {
         }, success: { (result) in
             DispatchQueue.main.async {
-                Tools.showTap(message:"注册成功", superVC: self)
+                Tools.showTap(message:"删除成功", superVC: self)
             }
         }) { (errorMessage) in
             DispatchQueue.main.async {

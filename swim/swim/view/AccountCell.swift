@@ -25,11 +25,11 @@ class AccountCell: UITableViewCell {
     weak var cellDelegate: AccountCellDelegate?
 
     @IBAction func changePassword(_ sender: UIButton) {
-        cellDelegate?.changePasswordPressed(sender.tag)
+        cellDelegate?.changePasswordPressed(self.tag)
     }
     
     @IBAction func deleteAccount(_ sender: UIButton) {
-        cellDelegate?.deleteAccountPressed(sender.tag)
+        cellDelegate?.deleteAccountPressed(self.tag)
     }
 
     override func awakeFromNib() {

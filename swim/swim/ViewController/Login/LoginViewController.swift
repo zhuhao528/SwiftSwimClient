@@ -45,6 +45,11 @@ class LoginViewController: UIViewController {
             Tools.showTap(message: "请输入密码", superVC: self)
             return
         }
+//        if !Tools.checkPassword(password: passwordTextField.text! as NSString) {
+//            Tools.showTap(message: "请输入有效密码", superVC: self)
+//            return
+//        }
+
         self.login()
     }
     

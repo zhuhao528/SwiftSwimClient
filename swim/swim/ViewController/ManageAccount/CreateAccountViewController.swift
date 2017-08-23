@@ -80,15 +80,29 @@ class CreateAccountViewController: UIViewController {
             return
         }
         
+        if !Tools.checkUserName(userName: self.TeacherNameField.text! as NSString) {
+            Tools.showTap(message: "请输入有效昵称", superVC: self)
+            return
+        }
+        
         if self.AccountField.text == "" {
             Tools.showTap(message: "请输入账号", superVC: self)
             return
+        }
+        
+        if !Tools.checkTelNumber(phoneNum: self.AccountField.text!) {
+            Tools.showTap(message: "请输入正确手机账号", superVC: self)
         }
         
         if self.PasswordField.text == "" {
             Tools.showTap(message: "请输入密码", superVC: self)
             return
         }
+        
+//        if !Tools.checkPassword(password: self.PasswordField.text! as NSString) {
+//            Tools.showTap(message: "请输入有效密码", superVC: self)
+//            return
+//        }
         
         if self.RePasswordField.text == "" {
             Tools.showTap(message: "请输入重复密码", superVC: self)
@@ -128,7 +142,7 @@ class CreateAccountViewController: UIViewController {
             UserInfoRequest(start: {
             }, success: { (result) in
                 DispatchQueue.main.async {
-                    Tools.showTap(message:"注册成功", superVC: self)
+                    Tools.showTap(message:"修改成功", superVC: self)
                 }
             }) { (errorMessage) in
                 DispatchQueue.main.async {

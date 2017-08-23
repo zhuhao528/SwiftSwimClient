@@ -33,6 +33,11 @@ class InputUserNameController: UIViewController {
             Tools.showTap(message: "请输入用户名", superVC: self)
             return
         }
+        
+        if !Tools.checkTelNumber(phoneNum: userNameTextField.text!) {
+            Tools.showTap(message: "请输入正确手机号", superVC: self)
+            return
+        }
         self.request()
     }
     
